@@ -1,0 +1,313 @@
+/*reset.css*/
+a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;font:12px/1.5 Helvetica,Arial,sans-serif}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:' ';content:none}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6{font-weight:400}input{outline:0}.hidden{float:left;width:0;height:0;overflow:hidden}.hiddenText{text-indent:100%;white-space:nowrap;overflow:hidden}.sans{font-family:'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',STHeiti,\534E\6587\7EC6\9ED1,SimHei,Helvetica,Arial,sans-serif}.smallSans{font-family:'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',STHeiti,\534E\6587\7EC6\9ED1,SimSun,Helvetica,Arial,sans-serif}.none{display:none}.bold{font-weight:700}.center{text-align:center}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}table td{padding:5px 10px;border:1px solid #ccc}a{text-decoration:none}
+
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.clearfix:after,.clearfix:before{
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}
+
+/*stylesheet*/
+.container{
+    width: 7.5rem;
+    margin: 0 auto;
+}
+header{
+    width:100%;
+    height: 1rem;
+    position: fixed;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 8px #888;
+    z-index: 110;
+}
+/*header a{*/
+    /*background: url(../images/cpt_m_icon.png)  no-repeat;*/
+    /*background-size:126px 441px ;*/
+    /*-webkit-background-size: 126px 441px;*/
+    /*-moz-background-size: 126px 441px;*/
+/*}*/
+header .menu{
+    width: 1.2rem;
+    height: .4rem;
+    padding: .3rem;
+    float: left;
+}
+header .menu i{
+    display: inline-block;
+    width: .5rem;
+    height: .4rem;
+    background: url("menu.png")/*tpa=http://bj.chepaitong.com.cn/static/images/menu.png*/ center center  no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    float: left;
+    vertical-align: middle;
+}
+header .menu span{
+    font: normal .30rem/1.3 "Microsoft Yahei";
+    color: #23315E;
+    float: right;
+    /*margin-top: .1rem;*/
+}
+
+header .logo{
+    display:block;
+    width: 1.52rem;
+    height: .7rem;
+    background: url("cpt_m_footer_logo.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/cpt_m_footer_logo.jpg*/  no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    margin: .2rem auto 0 auto;
+}
+
+header .tel{
+    width:auto;
+    height: .7rem;
+    font: normal .30rem/1.3 "Microsoft Yahei";
+    color: #293662;
+    position: absolute;
+    top: .15rem;
+    right: .2rem;
+}
+header .tel a {
+    display:block;
+    font-weight: bold;
+    color: #FF7B29;
+    line-height: .8rem;
+}
+/*header .tel a b{
+    display: inline-block;
+    width: .3rem ;
+    height: .3rem;
+    margin-right: 2px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+header .tel a .header_icon_tel{
+    background: url("../images/tel.png") no-repeat;
+    background-size: contain;
+}*/
+/*header .tel a .header_icon_phone{
+    background: url("../images/phone.png") no-repeat;
+    background-size: contain;
+}*/
+
+
+/*底部栏 */
+.footer{
+    background-color: #23315E;
+    position: relative;
+    padding-bottom:.9rem;
+}
+.footer .footer_left{
+    position: absolute;
+    top:.8rem;
+    left:.6rem;
+ }
+.footer .footer_left img{
+    width: 2.5rem;
+    height: 1rem;
+}
+.footer .footer_right{
+    position: absolute;
+    top:.5rem;
+    right:.8rem;
+}
+.footer .footer_right img{
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.footer .footer_right span{
+    display: block;
+    font: normal .30rem/2 "Microsoft Yahei";
+    margin-top: .1rem;
+    color: #fff;
+    text-align: center;
+}
+.footer .footer_adress{
+    padding:3.1rem 0 .2rem .6rem;
+}
+.footer .footer_adress p{
+    font: normal .30rem/.5rem "Microsoft Yahei";
+    color: #fff;
+}
+.footer .footer_adress p i{
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    margin-right: .1rem;
+}
+.footer .footer_adress p .i1{
+    background: url("footer_tel.png")/*tpa=http://bj.chepaitong.com.cn/static/images/footer_tel.png*/ no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+/*.footer .footer_adress p .i2{
+    background: url("../images/footer_phone.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}*/
+.footer .footer_adress p .i3{
+    background: url("footer_time.png")/*tpa=http://bj.chepaitong.com.cn/static/images/footer_time.png*/ no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.footer .footer_adress p .i4{
+    background: url("footer_adress.png")/*tpa=http://bj.chepaitong.com.cn/static/images/footer_adress.png*/ no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.footer .footer_banquan{
+    background-color: #303E6F;
+}
+.footer .footer_banquan p{
+    font: normal .2rem "Microsoft Yahei";
+    padding:.15rem .2rem ;
+    text-align: center;
+    color: #fff;
+}
+/*面包屑 */
+.mbx{
+    padding: .4rem  .3rem;
+    color: #37456C;
+    line-height: .5rem;
+}
+.mbx span{
+    font: normal .35rem "Microsoft Yahei";
+    position: relative;
+    margin-right: .3rem;
+}
+.mbx span:after{
+    content: '';
+    display: block;
+    width: .2rem;
+    height: .2rem;
+    position: absolute;
+    top:.1rem;
+    right:-.3rem;
+    background: url("m_right_arrow.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/m_right_arrow.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+}
+.mbx .last_span:after{
+    display: none;
+}
+.mbx span a{
+    font: normal .35rem "Microsoft Yahei";
+    color: #37456C;
+}
+
+/*侧边栏 */
+
+.side-bar a,.chat-tips i {
+    background: url("aside.png")/*tpa=http://bj.chepaitong.com.cn/static/images/aside.png*/ no-repeat;
+    background-size: 35px 178px;
+}
+.side-bar {
+    width: 35px;
+    position: fixed;
+    bottom: 90px;
+    right: 5px;
+    font-size: 0;
+    line-height: 0;
+    z-index: 100;
+}
+.side-bar a {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-bottom: 2px;
+    background-color: #C8CDD3;
+    /*background-color:#FF7010;*/
+    /*background-color:#38446E;*/
+}
+.side-bar .activ{
+    background-color: #616e96;
+}
+
+.side-bar .icon-tel {
+    background-position: 1px -4px;
+    text-align: center;
+}
+/*.side-bar .icon-phione {
+    background-position: -1px -99px;
+    text-align: center;
+}*/
+.side-bar .icon-qq {
+    background-position: -1px -129px;
+    text-align: center;
+}
+.side-bar .icon-chat{
+    background-position: 0px -35px;
+    text-align: center;
+    position: relative;
+}
+.side-bar .icon-back {
+    display: none;
+    background-position: -1px -70px;
+}
+
+.chat-tips {
+    border: 1px solid #d1d2d6;
+    position: absolute;
+    right: 44px;
+    top: -57px;
+    background-color: #fff;
+    display: none;
+    
+}
+.chat-tips i {
+    width: 9px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    right: -9px;
+    top: 65px;
+    background: url("small.png")/*tpa=http://bj.chepaitong.com.cn/static/images/small.png*/ no-repeat;
+    background-size: contain;
+}
+.chat-tips img {
+    width: 3rem;
+    height: 3rem;
+}
+
+/*页面底部栏固定样式 B*/
+.footer_fixed{
+    width: 100%;
+    height: .9rem;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    background: #59AB0B url("footer_fixed.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/footer_fixed.jpg*/ no-repeat;
+    background-size: contain;
+    color: #fff;
+    z-index:110;
+}
+.footer_fixed a{
+    display: block;
+    color: #fff;
+    padding-left: 1.4rem;
+}
+.footer_fixed .hot_tel{
+    font: normal .30rem/.9rem "Microsoft Yahei";
+    margin-right:.5rem;
+}
+.footer_fixed .tel{
+    font: normal .40rem/.9rem "Microsoft Yahei";
+}
+/*页面底部栏固定样式 E*/

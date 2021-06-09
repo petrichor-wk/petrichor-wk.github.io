@@ -1,0 +1,1057 @@
+
+.img_gallery{
+   height:4.4rem;
+     width:100%;
+    border-top:1px solid #d7d7d7;
+    overflow:hidden;
+    position:relative;
+    padding-top:1rem;
+}
+.main_img{
+       width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+}
+.main_img ul{
+    width:9999px;
+       width:100%;
+    height:auto;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0
+}
+.main_img li{
+    float:left;
+       width:100%;
+    height:auto;
+}
+.main_img li img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.main_img li a{
+    display:block;
+       width:100%;
+    height:auto;
+}
+
+div.point{
+    position:absolute;
+    bottom:.3rem;
+    left:60%;
+    z-index:88;
+    width:2rem;
+    height:.5rem;
+    margin:0 0 0 -50px;
+}
+div.point a{
+    float:left;
+    width: .4rem;
+    height: .4rem;
+    margin:0;
+    padding:0;
+    background:url("dian.png")/*tpa=http://bj.chepaitong.com.cn/static/images/dian.png*/  center center no-repeat;
+    background-size:contain;
+   -webkit-background-size: contain;
+    -moz-background-size: contain;
+    display:block;
+    text-indent:-1000px
+}
+div.point a.on{
+    float:left;
+    width: .4rem;
+    height: .4rem;
+    margin:0;
+    padding:0;
+    background:url("dianon.png")/*tpa=http://bj.chepaitong.com.cn/static/images/dianon.png*/ center center no-repeat;
+    background-size:contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    display:block;
+    text-indent:-1000px
+    /*background-position:0 -21px*/
+}
+
+
+
+.menu_list{
+    width: 42%;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    top:1rem;
+    left:0rem;
+    border-right: 1px solid #E1E2E6;
+    display: none;
+    border-top: 1px solid #E1E2E7;
+    z-index: 99;
+}
+.menu_list li{
+    height: 1.2rem;
+    font: normal .35rem/1.2rem "Microsoft Yahei";
+    border-bottom:  1px solid #E1E2E7;
+}
+.menu_list li.active{
+    background-color: #F5F6F8;
+}
+.menu_list li a{
+    color: #37436d;
+    width: 100%;
+    display: block;
+}
+.menu_list li a i{
+    display: inline-block;
+    width: .6rem;
+    height: .6rem;
+    margin-left: .4rem;
+    margin-right: .2rem;
+}
+.menu_list li a .i1{
+    background: url("home.png")/*tpa=http://bj.chepaitong.com.cn/static/images/home.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.menu_list li a .i2{
+    background: url("zuyong.png")/*tpa=http://bj.chepaitong.com.cn/static/images/zuyong.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.menu_list li a .i3{
+    background: url("guohu.png")/*tpa=http://bj.chepaitong.com.cn/static/images/guohu.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.menu_list li a .i4{
+    background: url("zhuanrang.png")/*tpa=http://bj.chepaitong.com.cn/static/images/zhuanrang.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.menu_list li a .i5{
+    background: url("zhibiao.png")/*tpa=http://bj.chepaitong.com.cn/static/images/zhibiao.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.menu_list li a .i6{
+    background: url("guanyu.png")/*tpa=http://bj.chepaitong.com.cn/static/images/guanyu.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+
+.banner{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/*选择 B*/
+
+.choice{
+    /*background: #eaeaea;*/
+    padding: 0 .3rem;
+}
+.choice h2{
+    width: 100%;
+    height: 1.3rem;
+    float: left;
+    font: normal .40rem/1.3rem "Microsoft Yahei";
+    color:#FE6F0F;
+    font-weight: 700;
+    text-align: center;
+}
+.choice li{
+    /*width: 6.4rem;*/
+    height: 2.3rem;
+    float: left;
+    border: 1px solid #ccc;
+    /*margin-left: .5rem;*/
+    margin-bottom: .2rem;
+    padding: .1rem 0 .1rem .2rem;
+    background-color: #F4F4F4;
+}
+.choice li h3{
+    float: right;
+    margin-right: .95rem;
+    width: 3rem;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .45rem;
+    font-weight: 700;
+    color: #FF7010;
+    text-align: center;
+}
+.choice li p{
+    float: right;
+    margin-right: .2rem;
+    width: 5rem;
+    font: .25rem/1.5 "Microsoft Yahei";
+    color: #303030;
+    text-align: center;
+}
+.choice i{
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.2rem;
+    float: left;
+    margin-top: .5rem;
+    /*margin-left: .2rem;*/
+}
+.choice .c1 i{
+    background:  url("c1.png")/*tpa=http://bj.chepaitong.com.cn/static/images/c1.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.choice .c2 i{
+    background:  url("c2.png")/*tpa=http://bj.chepaitong.com.cn/static/images/c2.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.choice .c3 i{
+    background:  url("c3.png")/*tpa=http://bj.chepaitong.com.cn/static/images/c3.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.choice .c4 i{
+    background:  url("c4.png")/*tpa=http://bj.chepaitong.com.cn/static/images/c4.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.choice .c5 i{
+    background:  url("c5.png")/*tpa=http://bj.chepaitong.com.cn/static/images/c5.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+/*选择 E*/
+
+
+/*四大服务 B*/
+.serve{
+    /*background: #F3F3F3;*/
+    /*width: 100%;*/
+    height: auto;
+    overflow: hidden;
+    padding: 0 .3rem 0 .3rem;
+
+}
+.serve h2{
+    width: 100%;
+    height: 1.3rem;
+    float: left;
+    font: normal .40rem/1.3rem "Microsoft Yahei";
+    color:#FE6F0F;
+    font-weight: 700;
+    text-align: center;
+}
+.serve ul{
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #CECECE;
+}
+.serve li{
+   width: 3rem;
+    /*height: 6.9rem;*/
+    padding: 0 .2rem .2rem .2rem;
+}
+.serve li h3{
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .35rem;
+    font-weight: 700;
+    color: #FF7010;
+    text-align: center;
+}
+.serve li p{
+    /*margin-left: .5rem;*/
+    /*width: 2.9rem;*/
+    font: .3rem/1.5 "Microsoft Yahei";
+    color: #303030;
+}
+.serve i{
+    display:block;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0 auto;
+}
+.serve .s1 i{
+    background:  url("server1.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/server1.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.serve .s2 i{
+    background: url("server2.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/server2.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.serve .s3 i{
+    background: url("server3.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/server3.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.serve .s4 i{
+    background: url("server4.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/server4.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+
+/*四大服务 E*/
+
+/*广告 B*/
+.smallbanner{
+    width: 100%;
+    height:auto;
+        margin-top: -1px;
+}
+
+.smallbanner img{
+    width: 100%;
+    height: 1.5rem;
+}
+/*广告 E*/
+
+
+
+/*相关资讯 B*/
+
+.news_list{
+    padding: 5px 20px;
+}
+.news_list h2{
+    width: 100%;
+    height: 1.3rem;
+    float: left;
+    font: normal .40rem/1.3rem "Microsoft Yahei";
+    color:#FE6F0F;
+    font-weight: 700;
+    text-align: center;
+}
+.news_list .news_list_item{
+    padding-top:7px;
+}
+
+.news_list .news_list_item .news_list_item_title{
+   margin-bottom: 7px;
+}
+
+.news_list .news_list_item h3{
+    float: left;
+    font: normal .35rem "Microsoft Yahei";
+    color:#FE6F0F;
+    font-weight: 700;
+    display: inline-block;
+}
+.news_list .news_list_item span{
+    float: right;
+    color:#FE6F0F;
+}
+.news_list .news_list_item ul{
+    border-bottom: 1px dashed #E1E1E1;
+}
+
+.news_list .news_list_item li{
+    font: normal .30rem/2 "Microsoft Yahei";
+}
+
+
+
+.news_list .news_list_item li a{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.news_list .news_list_item li span{
+    float: right;
+    color: #303030;
+}
+.news_list .news_list_item li .item_news{
+    width: 4.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #303030;
+    font: normal .30rem/2 "Microsoft Yahei";
+    float: left;
+}
+
+/*黑中介 B*/
+.hei{
+    padding: .2rem .5rem;
+}
+.hei h2{
+    width: 100%;
+    height: 1.3rem;
+    font: normal .35rem/1.3rem "Microsoft Yahei";
+    color: #FE6F0F;
+    font-weight: 700;
+    text-align: center;
+}
+.hei li{
+    width:100%;
+    /*height: 6.2rem;*/
+    display: block;
+}
+.hei .hei2{
+    background-color: #F3F3F3;
+}
+.hei i{
+    display: block;
+    width: 100%;
+    height: 5rem;
+}
+.hei .h2{
+    width:100%;
+    /*height: 7.2rem;*/
+    display: block;
+    margin-top: 15px;
+
+}
+.hei .last{
+    display: block;
+    width: 100%;
+    height: 2.8rem;
+}
+.hei .h1 i{
+    background: url("hei1.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/hei1.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.hei .h2 i{
+    background:  url("hei2.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/hei2.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.hei .h2 p{
+    color: #303030;
+    /*margin-bottom: .5rem;*/
+    font: .3rem/1.2 "Microsoft Yahei";
+    font-weight: 700;
+    margin-bottom: .2rem;
+    padding: 0 .4rem  .4rem .4rem;
+    background-color: #F3F3F3;
+}
+/*黑中介 E*/
+
+/*报道 B*/
+.report{
+    width: 100%;
+    height: auto;
+}
+.report ul{
+    padding: .2rem .5rem 0 .5rem;
+}
+.report li {
+    width: 100%;
+    height: auto;
+}
+.report b{
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    background: url("eye.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/eye.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    float: right;
+    margin-top: 1rem;
+    margin-right: .2rem;
+}
+
+.report h4{
+    width: 2rem;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: .4rem;
+    font-weight: 700;
+    color: #FF7010;
+    margin-top: .7rem  ;
+    margin-left: .3rem;
+}
+
+.report span{
+    color: #303030;
+    font-weight: 700;
+    margin-left: .2rem;
+    font: .28rem/1.2 "Microsoft Yahei";
+}
+.report p{
+    color: #303030;
+    margin-top: .3rem;
+    margin-bottom: .5rem;
+    font: .3rem/1.5 "Microsoft Yahei";
+}
+
+.report .xzj{
+    margin-left: .6rem;
+}
+.report .pyq{
+    margin-left: .6rem;
+}
+.report .last{
+    margin-left: .4rem;
+}
+.report .r1 .r1_rt{
+    height: 2.6rem;
+    border: 1px solid #BABABA;
+    background-color: #fff;
+}
+.report .r2 .r2_rt{
+    height: 2.6rem;
+    border: 1px solid #BABABA;
+    background-color: #fff;
+}
+.report .r3 .r3_rt{
+    height: 2.6rem;
+    border: 1px solid #BABABA;
+    background-color: #fff;
+}
+/*.report .r3 p{
+    margin-bottom: 0;
+}*/
+.report  i{
+    display: inline-block;
+    width:55%;
+    height: 2.6rem;
+    float: left;
+}
+.report .cf{
+    width: 45%;
+    height: 2.6rem;
+}
+.report .r1 i{
+    background: #fff url("r1.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/r1.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.report .r2 i{
+    background: #fff url("r2.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/r2.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.report .r3 i{
+    background: #fff url("r3.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/r3.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+}
+.report .r2,.r1{
+    border-bottom: 1px dashed #D4D4D4;
+}
+.report .r3{
+    border-bottom: 1px dashed #D4D4D4;
+}
+.report .guiding{
+    padding:0 .5rem;
+    /*margin-bottom:.5rem;*/
+}
+.report .guiding a{
+    display:block;
+}
+.report .guiding h3{
+    width: 100%;
+    height: 1.3rem;
+    font: normal .35rem/1.3rem "Microsoft Yahei";
+    color: #FE6F0F;
+    font-weight: 700;
+    text-align: center;
+}
+
+.report .guiding .gd_main{
+    padding-bottom:.5rem;
+    border-bottom: 1px dashed #D4D4D4;
+}
+
+.report .guiding .gd_main p{
+    margin-top:0;
+    margin-bottom:0;
+}
+/*报道 E*/
+
+
+/*合作流程  B*/
+.hezuo{
+    padding:0 .6rem;
+}
+.hezuo h2{
+    width: 100%;
+    height: 1.3rem;
+    font: normal .35rem/1.3rem "Microsoft Yahei";
+    color: #FE6F0F;
+    font-weight: 700;
+    text-align: center;
+}
+.hezuo .zuyong h4{
+   margin-top: 15px;
+}
+.hezuo h4{
+    font: normal .35rem "Microsoft Yahei";
+    color: #303030;
+    margin-bottom: 15px;
+}
+.hezuo ul{
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #CFCFCF;
+}
+.hezuo ul li{
+    width: 100%;
+    height: 1.25rem;
+    font: normal .30rem "Microsoft Yahei";
+    line-height: 1.25rem;
+    background-color: #FFECC2;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: .6rem;
+    text-align: center;
+}
+
+.hezuo ul li:after{
+    content: '';
+    width: .5rem;
+    height: .25rem;
+    display: block;
+    background: url("down_arrow.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/down_arrow.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    margin: .2rem auto 0 auto;
+
+}
+.hezuo ul .last_li{
+    margin-bottom: 0 ;
+}
+.hezuo ul .last_li:after{
+    content: '';
+    display: none;
+}
+.hezuo ul li i{
+    width: .9rem;
+    height: .9rem;
+    display: inline-block;
+    margin-right: 20px;
+}
+.hezuo .chuzu ul li  .i1{
+    background: url("liucheng1.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng1.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.hezuo .chuzu ul li .i2{
+    background: url("liucheng2.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng2.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.hezuo .chuzu ul li  .i3{
+    background: url("liucheng3.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng3.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.hezuo .chuzu ul li  .i4{
+    background: url("liucheng4.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng4.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+
+
+
+.hezuo .zuyong ul li  .i1{
+    background: url("liucheng1.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng1.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.hezuo .zuyong ul li .i2{
+    background: url("liucheng3.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng3.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.hezuo .zuyong ul li  .i3{
+    background: url("liucheng2.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng2.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+.hezuo .zuyong ul li  .i4{
+    background: url("liucheng5.png")/*tpa=http://bj.chepaitong.com.cn/static/images/liucheng5.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -ms-background-size:contain;
+    vertical-align: middle;
+}
+/*合作流程  E*/
+
+
+
+
+
+/*关于我们 B*/
+.aboutme{
+    height: auto;
+    /*width: 100%;*/
+    background: #fff;
+        /*padding-bottom:.3rem;*/
+        padding:0 .6rem;
+}
+.aboutme h3{
+    border-bottom: 1px dashed #CFCFCF;
+}
+ 
+
+.aboutme .logo1{
+    display: block;
+    width:2.5rem;
+    margin: .4rem auto;
+}
+.aboutme p{
+    /*width: 6.2rem;*/
+    margin: 0 auto;
+    margin-bottom: .3rem;
+    font: normal .3rem/1.5 "";
+    color: #303030;
+}
+.aboutme p b{
+    color: #ff792a;
+}
+
+/*关于我们 E*/
+
+
+/*新闻列表页面  B*/
+.news_article_list{
+    padding:  0 .3rem .3rem .3rem;
+}
+.news_article_list ul{
+    margin-top: -0.5rem;
+}
+.news_article_list li{
+    border-bottom: 1px dashed #CDCDCD;
+    padding: .6rem 0 .5rem 0;
+}
+
+.news_article_list li a{
+    display: block;
+}
+.news_article_list h3{
+    font: normal .30rem "Microsoft Yahei";
+    color: #303030;
+    width: 5.1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+}
+.news_article_list span{
+    font: normal .30rem "Microsoft Yahei";
+    color: #303030;
+    float: right;
+}
+.news_article_list p{
+    font: normal .25rem/.4rem "Microsoft Yahei";
+    color: #898989;
+    padding-top: .3rem ;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    box-sizing: border-box;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*新闻列表页面  E*/
+
+/*新闻文章详情页面 B*/
+.news_article_list_item{
+    padding: 0 .3rem;
+}
+.news_article_list_item h3{
+    font: normal .35rem "Microsoft Yahei";
+    color: #FD6300;
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+.news_article_list_item p{
+    font: normal .30rem/.4rem "Microsoft Yahei";
+    color: #B3B3B3;
+}
+.news_article_list_item p .article_type{
+    display: inline-block;
+    width: 1rem;
+    height: .4rem;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    background-color: #FD6301;
+    color: #fff;
+    text-align: center;
+    font: normal .30rem/.4rem "Microsoft Yahei";
+    margin-right: .5rem;
+}
+.news_article_list_item p .article_author{
+    font: normal .30rem/.4rem "Microsoft Yahei";
+    color: #494949;
+    margin-right: .5rem;
+}
+.news_article_list_item p .article_date{
+    margin-right: .3rem;
+}
+.news_article_list_item p b{
+    margin-right: .2rem;
+}
+.news_article_list_item .article_tag{
+    font: normal .30rem/.4rem "Microsoft Yahei";
+    color: #888;
+    margin: .2rem 0;
+}
+.news_article_list_item .article_tag span{
+   margin-right:.2rem;
+}
+/*.news_article_list_item .article_tag span{
+    margin-right: .25rem;
+}*/
+.news_article_list_item .article_zhaiyao{
+    font: normal .30rem/.4rem "Microsoft Yahei";
+    color: #000;
+    padding: .3rem 0;
+    border-bottom: 1px dashed #CFCFCF;
+}
+.news_article_list_item .news_article_box{
+    padding:.4rem 0;
+}
+.news_article_list_item .news_article_box p{
+    /*padding: .4rem 0;*/
+    font: normal .30rem/.5rem "Microsoft Yahei";
+    color: #494949;
+}
+.news_article_list_item .news_article_box p img{
+    width: 100%;
+    height: auto;
+}
+.news_article_list_item .news_article_banquan{
+    padding: .3rem ;
+    background-color: #F4F4F4;
+    margin-bottom: .3rem;
+}
+.news_article_list_item .news_article_banquan dl{
+    color: #676767;
+    font: normal .30rem/.5rem "Microsoft Yahei";
+}
+.news_article_list_item .news_article_banquan dl dt{
+    float: left;
+    width:1.7rem;
+}
+.news_article_list_item .news_article_banquan dl dd{
+    margin-left: 1.7rem;
+    width: 4.6rem;
+}
+.news_article_list_item .news_article_banquan dl .huanhang{
+    word-wrap:break-word;
+}
+.news_article_list_item .news_article_link{
+    font: normal .30rem/.5rem "Microsoft Yahei";
+    background-color: #F4F4F4;padding: .3rem;
+    margin-bottom: .3rem;
+}
+.news_article_list_item .news_article_link h4{
+    font: normal .35rem/.5rem "Microsoft Yahei";
+    color: #FC6401;
+}
+
+.news_article_list_item .news_article_link li span{
+    display: inline-block;
+    width: .15rem;
+    height: .15rem;
+    background: url("dian.jpg")/*tpa=http://bj.chepaitong.com.cn/static/images/dian.jpg*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    margin-right: .2rem;
+    vertical-align: middle;
+}
+.news_article_list_item .news_article_link li a{
+    display: block;
+    color:#676767 ;
+    width: 6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.news_article_banquan dl  .article_high_color{
+    color:  #FC6401;
+}
+/*新闻文章详情页面 E*/
+
+/*关于我们 B*/
+.about{
+    height: auto;
+    padding: .2rem .3rem ;
+}
+.about .about_up .about_logo{
+    display: block;
+    width: 3rem;
+    height: 1.1rem;
+    margin: .6rem auto;
+}
+.about .about_up  .jieshao{
+    font: normal .30rem/.4rem "Microsoft Yahei";
+    color: #2F2F2F;
+    padding-bottom: .4rem;
+    border-bottom: 1px dashed #E0E0E0;
+}
+.about .about_up  .jieshao b{
+    color: #FF7010;
+}
+
+.about .about_down{
+    position: relative;
+    padding-top: .5rem;
+}
+.about .about_down .about_down_leftline{
+    width: .1rem;
+    height: 6.2rem;
+    position: absolute;
+    top: .5rem;
+    left: 0px;
+    background: #FF6E0E;
+    background: linear-gradient(#FF6E0E, #fff);
+}
+
+.about .about_down dl{
+    margin-left: .35rem;
+}
+.about .about_down dl dt{
+    color: #FF7010;
+}
+.about .about_down dl dd{
+    font: normal .25rem/.4rem "Microsoft Yahei";
+    color: #595959;
+}
+.about .about_down dl .dt1{
+    font: normal .60rem/.4rem "Microsoft Yahei";
+}
+.about .about_down dl .dt2{
+    font: normal .55rem/.4rem "Microsoft Yahei";
+}
+.about .about_down dl .dt3{
+    font: normal .50rem/.4rem "Microsoft Yahei";
+}
+.about .about_down dl .dt4{
+    font: normal .45rem/.4rem "Microsoft Yahei";
+}
+.about .about_down dl .dt5{
+    font: normal .40rem/.4rem "Microsoft Yahei";
+}
+.about .about_down dl .dt6{
+    font: normal .35rem/.4rem "Microsoft Yahei";
+}
+
+.about .about_down i{
+    position: absolute;
+    right:.2rem;
+    bottom:.1rem;
+    width: .9rem;
+    height: 1.1rem;
+    background: url("cc.png")/*tpa=http://bj.chepaitong.com.cn/static/images/cc.png*/ no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+}
+
+/*关于我们 E*/
+
+/*页面友情链接样式 B*/
+.friendlink{
+    padding:.3rem 0;
+}
+.friendlink h4{
+        font: normal .3rem/1.5 "Microsoft Yahei";
+        color:#ff792a;
+        padding:0 .6rem;
+        margin-bottom:.2rem;
+}
+.friendlink  .friendlink_main{
+     font: normal .3rem/2.5 "Microsoft Yahei";
+     color:#5C6989;
+     padding:0 .4rem;
+}
+.friendlink  .friendlink_main li{
+    float:left;
+}
+.friendlink  .friendlink_main li a{
+    display:block;
+    padding:0 .2rem;
+      color:#5C6989;
+}
+/*页面友情链接样式 E*/
+
